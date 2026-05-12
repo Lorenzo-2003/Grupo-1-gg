@@ -58,6 +58,38 @@ agotamiento-stock/
 ├── dashboards/
 │   └── dashboard_metabase.png
 ├── docker-compose.yml
+
+
+C:\temp\mvp-dataops-docente
+├─ app/
+│ ├─ __init__.py
+│ ├─ main.py
+│ ├─ db.py
+│ └─ predict.py
+├─ scripts/
+│ ├─ load_postulaciones_xlsx.py
+│ └─ train_matriculado_model.py
+├─ artifacts/
+│ ├─ matriculado_model.joblib
+│ └─ matriculado_metrics.json
+├─ examples/
+│ └─ predict_matriculado_payload.json
+├─ tests/
+│ └─ test_health.py
+├─ data/
+│ └─ postulaciones.xlsx
+├─ sql/
+│ └─ 01_create_postulaciones_demo_table.sql
+├─ .github/
+│ └─ workflows/
+│ └─ ci.yml
+├─ .env.example
+├─ .gitignore
+├─ .dockerignore
+├─ Dockerfile
+├─ README.md
+├─ render.yaml
+└─ requirements.txt
 ```
 
 ---
